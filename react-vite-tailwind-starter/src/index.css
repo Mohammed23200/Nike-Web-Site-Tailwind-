@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Cairo:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base theme (dark deep blue) */
+@layer base {
+  html { @apply bg-white text-black antialiased; }
+  body { font-family: Montserrat, Cairo, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+}
+
+/* Example component helpers */
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .section-padding { @apply px-8 sm:px-16 py-12 sm:py-24; }
+  .card { @apply rounded-2xl bg-base-800/40 ring-1 ring-white/10; }
+  .btn-primary { @apply inline-flex items-center justify-center rounded-full bg-brand px-6 py-3 text-base-900 font-semibold transition hover:bg-brand/90; }
+}
