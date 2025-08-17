@@ -8,9 +8,10 @@ const App = () => (
     <Nav/>
 
     {/* Hero */}
-    <section className="px-8 sm:px-16 py-12 sm:py-24 xl:pl-16">
-      <Hero/>
-    </section>
+    <section className="w-full px-8 sm:px-16 pb-12 sm:pb-24">
+  <Hero />
+</section>
+0
 
     {/* PopularProducts */}
     <section className="px-8 sm:px-16 py-12 sm:py-24">
