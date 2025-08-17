@@ -2,7 +2,7 @@ import React from 'react'
 
 const SpacialOffer = () => {
   return (
-    <div>SpacialOffer</div>
+    <section>SpacialOffer</section>
   )
 }
 
